@@ -1,19 +1,23 @@
 {
-  "name": "hottest-restaurant",
+  "name": "hottest_restaurant_around",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.16.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylan-Casanova/hottest_restaurant_around.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dylan-Casanova/hottest_restaurant_around/issues"
+  },
+  "homepage": "https://github.com/Dylan-Casanova/hottest_restaurant_around#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
